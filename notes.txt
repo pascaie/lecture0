@@ -2,7 +2,8 @@ git clone <url> #get the repository from the remote server to your local
 git add <filename> #add a file to the staging area, making it ready to be committed
 git commit -m "message" #commit the file and write a message for the commit action
 git commit -am <filename> "message" #put in staging (add) and commit the file at the same time
-git status
-git push
-git pull
-git log
+git status #check the status of the repository (e.g. it tells you if there are any uncommitted files)
+git push #push the newly committed files to the GitHub repository (remote server)
+git pull #retrieve the latest committed gìfiles from the GitHub remote server
+git log #display a historical list of commits
+git reset --hard <commit_code> #restore the files which were committed with the specified commit code
