@@ -1,7 +1,7 @@
-git clone <url>
-git add <filename>
-git commit -m "message"
-git commit -am <filename> "message"
+git clone <url> #get the repository from the remote server to your local
+git add <filename> #add a file to the staging area, making it ready to be committed
+git commit -m "message" #commit the file and write a message for the commit action
+git commit -am <filename> "message" #put in staging (add) and commit at the same time
 git status
 git push
 git pull
