@@ -7,3 +7,9 @@ git push #push the newly committed files to the GitHub repository (remote server
 git pull #retrieve the latest committed gìfiles from the GitHub remote server
 git log #display a historical list of commits
 git reset --hard <commit_code> #restore the files which were committed with the specified commit code
+
+stage & commit the deleted files:
+  a) to stage your whole working tree:
+      $ git add -u :/
+  b) to stage just the current path:
+      $ git add -u .
